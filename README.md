@@ -1,4 +1,5 @@
 📄 Project Documentation: Magical Labyrinth
+
 🧩 Overview
 Magical Labyrinth is a Java-based adventure game set in a procedurally generated magical dungeon. The player navigates through rooms with puzzles, traps, and enemies while collecting artifacts and trying to find the exit. The game emphasizes strategic decision-making and incorporates well-known software design patterns.
 
@@ -6,6 +7,7 @@ Magical Labyrinth is a Java-based adventure game set in a procedurally generated
 bash
 Copy
 Edit
+
 MagicalLabyrinth/
 ├── controller/       # Controls game logic (e.g., GameController)
 ├── model/            # Core game entities and logic
