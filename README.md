@@ -47,22 +47,15 @@ Magical Labyrinth is a Java-based adventure game set in a procedurally generated
 5. State Pattern
 - Hints of this pattern in trap implementation (reference to HiddenTrapState in Trap.java )
 - Manages different states of traps (hidden, revealed, triggered)
-6. Inheritance Pattern
-- Room hierarchy with`Room` as the base class
-- Specialized rooms like TreasureRoom , PuzzleRoom , and RegularRoom
-7. Composite Pattern (partially)
-- The Labyrinth class manages a collection of Room objects
-- Treats individual rooms and the entire labyrinth structure uniformly
-These patterns work together to create a flexible and maintainable game architecture:
+
+  
 
 - Factory Pattern handles room creation
 - Strategy Pattern manages combat mechanics
 - Observer Pattern handles puzzle events
 - Template Method Pattern standardizes puzzle implementation
 - State Pattern manages trap states
-- Inheritance provides room type specialization
-- Composite Pattern organizes the overall game structure
-This combination of patterns provides good separation of concerns, maintainability, and extensibility to your game's codebase.
+This combination of patterns provides good separation of concerns, maintainability, and extensibility to our game's codebase.
 
 ---
 
